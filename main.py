@@ -28,7 +28,7 @@ ch = logging.StreamHandler()
 ch.setFormatter(ColoredFormatter())
 logger.addHandler(ch)
 
-API_KEY = "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"
+API_KEY = "your_key_here"
 
 def fetch_informatics_data(grade):
     logger.debug(f"Попытка отправить запрос для {grade} класса через OpenRouter...")
